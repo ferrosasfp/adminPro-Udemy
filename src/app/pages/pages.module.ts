@@ -18,6 +18,8 @@ import { PagesComponent } from './pages.component';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccoutSettingComponent } from './accout-setting/accout-setting.component';
+import { PromessComponent } from './promess/promess.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     imports: [
@@ -40,6 +42,8 @@ import { AccoutSettingComponent } from './accout-setting/accout-setting.componen
         IncrementadorComponent,
         GraficoDonaComponent,
         AccoutSettingComponent,
+        PromessComponent,
+        RxjsComponent,
     ],
     providers: [],
 })
